@@ -1,46 +1,38 @@
 export const projects = [
   {
-    title: 'MERN Memories',
-    description: "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
-      image: '/images/1.png',
-      tags: ['Mongo', 'Express', 'React', 'Node'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    title: "THE PMS",
+    description:
+      "The Project Management System is a mern stack project based on storing the projects of last year students of the college in a secure way by which the college and the students can access and modify it easily.",
+    image: "/images/pms.png",
+    tags: ["Mongo", "Express", "React", "Node"],
+    source: "https://google.com",
+    visit: "https://google.com",
     id: 0,
   },
   {
-    title: 'E-Commerce',
-    description:"While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
-    image: '/images/2.png',
-    tags: ['React', 'JavaScript'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    title: "MEMORIES",
+    description:
+      "This is the practice project from the youtube channel Javascript Mastery in which the technology used is MERN Stack. It is simple social media app that allows users to post interesting events that happened in their lives",
+    image: "/images/1.png",
+    tags: ["Mongo", "Express", "React", "Node"],
+    source: "https://google.com",
+    visit: "https://google.com",
     id: 1,
-  },
-  {
-    title: 'WebRTC App',
-    description: "This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy a React Video Chat Application using WebRTC.",
-      image: '/images/3.jpg',
-      tags: ['React', 'WebRTC'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
-    id: 2,
-  },
-  {
-    title: 'Unichat',
-    description: "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
-    image: '/images/4.jpg',
-    tags: ['React', 'ChatEngine', 'Firebase'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
-    id: 3,
   },
 ];
 
 export const TimeLineData = [
-  { year: 2017, text: 'Started my journey', },
-  { year: 2018, text: 'Worked as a freelance developer', },
-  { year: 2019, text: 'Founded JavaScript Mastery', },
-  { year: 2020, text: 'Shared my projects with the world', },
-  { year: 2021, text: 'Started my own platform', },
+  { year: 2020, text: "Started Learning MERN Stack" },
+  {
+    year: 2021,
+    text: "Developed some web application with some help of youtube videos and blogs",
+  },
+  {
+    year: 2022,
+    text: "Completed My own project in MERN Stack 'THE PMS'",
+  },
+  {
+    year: 2022,
+    text: "Mastering MERN Stack concepts",
+  },
 ];
